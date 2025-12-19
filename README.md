@@ -4,7 +4,7 @@ API REST en Spring Boot para aplicación e-commerce con operaciones CRUD de usua
 
 ## Descripción
 
-Backend que maneja la lógica de negocio del e-commerce con autenticación JWT, gestión de usuarios, productos y clientes.
+Backend que maneja la lógica de negocio del e-commerce con autenticación JWT, gestión de usuarios, productos y clientes.s
 
 ## Estructura
 
@@ -12,25 +12,25 @@ Backend que maneja la lógica de negocio del e-commerce con autenticación JWT, 
 backendfinal2/
 ├── src/main/java/ar.com.ayiejercicio2final/
 │   ├── authentication/   # Sistema JWT
-│   │   ├── config/                    
+│   │   ├── config/
 │   │   ├── controller/
 │   │   ├── entity/
 │   │   ├── jwt/
 │   │   ├── model/
 │   │   ├── repository/
 │   │   └──service
-│   ├── config/                    
-│   ├── controller/ #Endpoints REST              
-│   ├── dto/                               
-│   ├── exception/               
+│   ├── config/
+│   ├── controller/ #Endpoints REST
+│   ├── dto/
+│   ├── exception/
 │   ├── persistence/ #Entidades y Repositorios
-│   │   ├── entity/                    
-│   │   └──repository/ 
-│   ├── service/   #Logica de negocio          
-│   └── ExamenfinalApplication.java 
+│   │   ├── entity/
+│   │   └──repository/
+│   ├── service/   #Logica de negocio
+│   └── ExamenfinalApplication.java
 ├── src/main/resources/
 │   ├── application.properties
-│   └── log4j2.properties 
+│   └── log4j2.properties
 ├── src/test/java/              # Tests unitarios e integración
 ├── Dockerfile
 ├── pom.xml                   # Configuración Maven
