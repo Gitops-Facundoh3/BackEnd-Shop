@@ -4,7 +4,7 @@ API REST en Spring Boot para aplicación e-commerce con operaciones CRUD de usua
 
 ## Descripción
 
-Backend que maneja la lógica de negocio del e-commerce con autenticación JWT, gestión de usuarios, productos y clientes.a
+Backend que maneja la lógica de negocio del e-commerce con autenticación JWT, gestión de usuarios, productos y clientes.
 
 ## Estructura
 
